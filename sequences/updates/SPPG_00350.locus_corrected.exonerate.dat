@@ -1,0 +1,114 @@
+Command line: [exonerate -m p2g ../SPPG_00350LONG.fa SPPG_00350.locus_corrected.fa]
+Hostname: [pigeon]
+
+C4 Alignment:
+------------
+         Query: SPPG_00350T0L
+        Target: supercont1.1_927221-930212 Corrected of Spizellomyces punctatus DAOM BR117:[revcomp]
+         Model: protein2genome:local
+     Raw score: 1789
+   Query range: 0 -> 367
+  Target range: 2158 -> 800
+
+    1 : MetGluAlaArgAspLeuAspLeuSerGlnThrIleProPheProProLeuAlaTyrGlyTh :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        MetGluAlaArgAspLeuAspLeuSerGlnThrIleProPheProProLeuAlaTyrGlyTh
+ 2158 : ATGGAAGCCCGCGACCTCGACCTTTCACAAACGATCCCGTTTCCCCCTCTCGCATACGGCAC : 2098
+
+   22 : rAlaIleValLeuValIleIleThrValAlaIleIleAlaGlyAsnLeuPheIleLeuIleL :   42
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        rAlaIleValLeuValIleIleThrValAlaIleIleAlaGlyAsnLeuPheIleLeuIleL
+ 2097 : CGCCATTGTCCTCGTCATCATCACCGTAGCCATCATCGCAGGAAACCTGTTTATTCTTATCC : 2035
+
+   43 : euPheAlaArgTyrArgTyrLeuArgAsnAlaAlaAsnAlaLeuValPheSerLeuSerPhe :   62
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        euPheAlaArgTyrArgTyrLeuArgAsnAlaAlaAsnAlaLeuValPheSerLeuSerPhe
+ 2034 : TGTTTGCAAGATACAGATACCTCCGAAACGCCGCAAATGCCTTGGTCTTTAGTTTGTCTTTT : 1975
+
+   63 : ThrAspLeuCysIleGlyValGlnArgLeuSerLeuIleSerIleHisLeuSerLysGlyGl :   83
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        ThrAspLeuCysIleGlyValGlnArgLeuSerLeuIleSerIleHisLeuSerLysGlyGl
+ 1974 : ACAGATTTGTGTATTGGGGTCCAGAGACTTAGTTTGATATCGATTCACTTGTCGAAGGGGGG : 1912
+
+   84 : yTyrAlaThrGlyLysLeuGlyCysVal  >>>> Target Intron 1 >>>>  LeuAs :   94
+        ||||||||||||||||||||||||||||            76 bp            |||||
+        yTyrAlaThrGlyLysLeuGlyCysVal++                         ++LeuAs
+ 1911 : ATATGCCACAGGCAAGCTTGGATGTGTTgt.........................agTTGGA : 1803
+
+   95 : pGlyAsnPheThrValMetPheSer  >>>> Target Intron 2 >>>>  SerGlnSe :  105
+        |||||||||||||||||||||||||            56 bp            ||||||||
+        pGlyAsnPheThrValMetPheSer++                         ++SerGlnSe
+ 1802 : TGGGAATTTTACTGTAATGTTTTCGgt.........................agTCTCAATC : 1714
+
+  106 : rLeuLeuGlyLeuThrAlaLeuGlyMetGluArgTyrMetAlaValValLysArgArgProL :  126
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        rLeuLeuGlyLeuThrAlaLeuGlyMetGluArgTyrMetAlaValValLysArgArgProL
+ 1713 : CCTCCTAGGTCTCACGGCCCTCGGCATGGAACGGTACATGGCAGTCGTTAAGCGCCGGCCTT : 1651
+
+  127 : euThrMetArgGlnAlaMetMetAlaValAlaAlaThrTrpIleTyrSerGlyValLeuCys :  146
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        euThrMetArgGlnAlaMetMetAlaValAlaAlaThrTrpIleTyrSerGlyValLeuCys
+ 1650 : TGACAATGAGACAAGCGATGATGGCCGTGGCCGCAACATGGATATATAGTGGGGTGCTGTGC : 1591
+
+  147 : AlaIleProTyrMetValLysGlyAspAlaTyrArgLeuGlnSerSerPheLeuTyrCys   :  167
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||!       
+        AlaIleProTyrMetValLysGlyAspAlaTyrArgLeuGlnSerSerPheLeu***Val--
+ 1590 : GCGATACCGTACATGGTGAAAGGGGATGCGTATCGATTGCAAAGTTCATTTCTGTGAGTAta : 1528
+
+  168 : >>>> Target Intron 3 >>>>  ThrGlyAspTrpSerGlyLysArgProGlyThrIl :  178
+                  125 bp           |||||||||||||||||||||||||||||||||||
+                                 ++ThrGlyAspTrpSerGlyLysArgProGlyThrIl
+ 1527 : .........................agACTGGTGACTGGTCCGGTAAAAGGCCAGGGACCAT : 1370
+
+  179 : ePhePheThrValMetCysLeuAlaThrValThrIleAlaLeuGlyAlaPheGlyValAlaT :  199
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        ePhePheThrValMetCysLeuAlaThrValThrIleAlaLeuGlyAlaPheGlyValAlaT
+ 1369 : CTTTTTCACCGTCATGTGTCTCGCGACCGTCACTATCGCCCTTGGAGCGTTTGGCGTCGCAT : 1307
+
+  200 : yrTyrPheIleAsnArgGluValArgLeuAlaSerLysLysTrpAlaHisValGlnAlaGly :  219
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        yrTyrPheIleAsnArgGluValArgLeuAlaSerLysLysTrpAlaHisValGlnAlaGly
+ 1306 : ACTATTTCATTAACCGAGAAGTCCGCTTGGCCAGCAAGAAATGGGCCCACGTCCAAGCAGGT : 1247
+
+  220 : ThrGlyGluGluSerSerSerMetSerSerProProValValAspSerThrArgProAsnSe :  240
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        ThrGlyGluGluSerSerSerMetSerSerProProValValAspSerThrArgProAsnSe
+ 1246 : ACTGGAGAAGAGTCGTCATCAATGTCTAGTCCACCAGTGGTCGATTCCACACGACCCAATTC : 1184
+
+  241 : rAlaSerThrArgLysMetAspAlaLeuGluAlaLysLeuAlaLysLysSerLeuIleLeuV :  261
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        rAlaSerThrArgLysMetAspAlaLeuGluAlaLysLeuAlaLysLysSerLeuIleLeuV
+ 1183 : AGCATCCACACGAAAAATGGATGCATTAGAAGCTAAACTCGCTAAGAAGAGTTTAATCCTCG : 1121
+
+  262 : alLeuValPheAlaPheAsnTrpLeuLeuTyrAspIleAsnPheLeuTrpSerMetIleGly :  281
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        alLeuValPheAlaPheAsnTrpLeuLeuTyrAspIleAsnPheLeuTrpSerMetIleGly
+ 1120 : TACTGGTCTTTGCGTTCAACTGGTTGCTTTACGATATCAATTTCCTTTGGTCCATGATTGGC : 1061
+
+  282 : SerValGlnValProMetArgIleArgLeuSerSerLeuLeuGlyCysAspSerLysValSe :  302
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        SerValGlnValProMetArgIleArgLeuSerSerLeuLeuGlyCysAspSerLysValSe
+ 1060 : AGTGTCCAAGTCCCCATGCGTATTAGATTGTCTAGCCTTCTTGGGTGCGATAGTAAAGTAAG :  998
+
+  303 : rCysLeuGlnThrLeuValValLeuThrThrThrHisAlaAsnThrThrLeuLysAsnSerS :  323
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        rCysLeuGlnThrLeuValValLeuThrThrThrHisAlaAsnThrThrLeuLysAsnSerS
+  997 : TTGTTTGCAAACACTTGTTGTACTCACCACCACACATGCTAATACCACCCTCAAAAACAGCT :  935
+
+  324 : erAlaPheAsnProValLeuPheIleValLeuAspAsnArgTrpAlaArgCysAlaLysAsp :  343
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        erAlaPheAsnProValLeuPheIleValLeuAspAsnArgTrpAlaArgCysAlaLysAsp
+  934 : CAGCTTTCAACCCTGTTCTTTTTATTGTCCTCGATAACCGATGGGCGCGTTGCGCAAAGGAT :  875
+
+  344 : PheLeuGlyCysTrpProMetGlyLysThrValGluLysAspAlaThrProGlnGluSerVa :  364
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        PheLeuGlyCysTrpProMetGlyLysThrValGluLysAspAlaThrProGlnGluSerVa
+  874 : TTCCTGGGTTGCTGGCCGATGGGCAAAACGGTAGAAAAGGATGCAACGCCGCAAGAGTCAGT :  812
+
+  365 : lMetArgSer :  367
+        ||||||||||
+        lMetArgSer
+  811 : CATGAGATCT :  801
+
+vulgar: SPPG_00350T0L 0 367 . supercont1.1_927221-930212 2158 800 - 1789 M 92 276 5 0 2 I 0 72 3 0 2 M 10 30 5 0 2 I 0 52 3 0 2 M 64 192 5 0 2 I 0 121 3 0 2 M 201 603
+-- completed exonerate analysis
