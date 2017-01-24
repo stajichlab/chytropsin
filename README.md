@@ -17,6 +17,8 @@ Chytrid Opsin project for identification and phylogenetics
       - Manual correction of lysine orientaion using general Amber force field (GAFF) in Avogadro
 - sequences
   * sampled sequencs for the chytrids and related species
+- templates
+  * 3D structures of the aligned regions of the threading templates
 - scripts
   * analysis scripts
 - trees
