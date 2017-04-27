@@ -25,3 +25,6 @@ Chytrid Opsin project for identification and phylogenetics
   * phylogenetic trees from the analyses
 - genomes.tab
   * data sources
+  
+**These data support the publication:**
+ Ahrendt SR, Medina EM, Chang CA, Stajich JE. Exploring the binding properties and structural stability of an opsin in the chytrid _Spizellomyces punctatus_ using comparative and molecular modeling. PeerJ 2017 5:e3206. [doi: 10.7717/peerj.3206](https://peerj.com/articles/3206/)
